@@ -7,3 +7,7 @@ qtquickcontrols2
 qtserialport
 qtsvg
 qtgraphicaleffects
+qtx11extras 
+qtimageformats 
+qtsvg 
+qtmultimedia

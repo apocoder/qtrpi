@@ -111,7 +111,7 @@ function clean_git_and_compilation() {
 
 function qmake_cmd() {
     LOG_FILE=${1:-'default'}
-    $ROOT/raspi/qt5/bin/qmake -r |& tee $ROOT/logs/$LOG_FILE.log
+    $ROOT/raspi/qt5/bin/qmake turnstile_app.pro |& tee $ROOT/logs/$LOG_FILE.log
 }
 
 function make_cmd() {

@@ -42,4 +42,5 @@ cd utils
 ./init-common.sh
 ./synchronize-qt-modules.sh
 ./compile-qt-modules.sh --clean-output --clean-modules-repo
+./install-nfc.sh
 

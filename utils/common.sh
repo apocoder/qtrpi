@@ -111,7 +111,6 @@ function clean_git_and_compilation() {
 
 function qmake_cmd() {
     LOG_FILE=${1:-'default'}
-    ls -lah
     $ROOT/raspi/qt5/bin/qmake -makefile 
 }
 

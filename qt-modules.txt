@@ -11,3 +11,4 @@ qtx11extras
 qtimageformats 
 qtsvg 
 qtmultimedia
+nfc
